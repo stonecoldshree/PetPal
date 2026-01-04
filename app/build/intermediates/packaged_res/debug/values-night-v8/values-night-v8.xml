@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#100F18</color>
+    <color name="chat_bot_bg">#2A2A2A</color>
+    <color name="chat_input_bg">#1F1F1F</color>
+    <color name="fab_bg">#9B5CFF</color>
+    <color name="icon_default">#CCCCCC</color>
+    <color name="icon_delete">#FF6B6B</color>
+    <color name="icon_tint_accent">#A974FF</color>
+    <color name="icon_tint_dark">#DDDDDD</color>
+    <color name="icon_tint_light">#FFFFFF</color>
+    <color name="icon_tint_primary">#EAEAEA</color>
+    <color name="neu_shadow_dark">#0A0910</color>
+    <color name="neu_shadow_light">#282338</color>
+    <color name="neu_surface">#1A1724</color>
+    <color name="page_bg">#100F18</color>
+    <color name="purple_200">#C6A9FF</color>
+    <color name="purple_500">#A974FF</color>
+    <color name="purple_700">#9B5CFF</color>
+    <color name="rem_card">#1A1A1A</color>
+    <color name="text_hint">#AAAAAA</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#D2D2D2</color>
+    <color name="white">#1B1A22</color>
+    <style name="Theme.PetCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="android:statusBarColor">@color/purple_500</item>
+        <item name="android:navigationBarColor">@color/purple_500</item>
+    </style>
+</resources>

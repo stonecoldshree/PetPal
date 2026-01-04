@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetCare</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="save_reminder">Save Reminder</string>
+    <string name="select_pet">Select Pet</string>
+    <string name="title">Title</string>
+    <string name="notes">Notes</string>
+    <string name="select_date">Pick Date</string>
+    <string name="select_time">Pick Time</string>
+    <string name="choose_tone">Choose Notification Tone</string>
+    <string name="no_pet">No pet</string>
+    <string name="no_notes">No notes</string>
+    <string name="untitled">Untitled</string>
+    <string name="delete">Delete</string>
+    <string name="delete_reminder_confirmation">This reminder will be permanently removed.</string>
+    <string name="error_required">Required</string>
+    <string name="error_future_time">Pick a future date &amp; time</string>
+    <string name="reminder_saved">Reminder saved</string>
+    <string name="updated">Updated</string>
+    <string name="tone_selected">Tone selected</string>
+    <string name="tone_silent">Silent tone</string>
+    <string name="reminder_title">Reminder Title</string>
+    <string name="rem_subtitle_example">Pet • notes</string>
+    <string name="rem_when_example">Sun, 4 Feb • 9:30 AM</string>
+    <string name="recurring_daily">Repeat daily</string>
+    <string name="reminder_icon">Reminder icon</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string-array name="species_array">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bird</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+</resources>
+

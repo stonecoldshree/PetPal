@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card:cardCornerRadius="16dp"
+    card:cardElevation="4dp"
+    android:background="@color/rem_card"
+    android:padding="14dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Avatar -->
+        <ImageView
+            android:id="@+id/petItemAvatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/other_avatar"
+            android:layout_alignParentStart="true" />
+
+        <!-- Pet Name -->
+        <TextView
+            android:id="@+id/petItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:layout_toEndOf="@id/petItemAvatar"
+            android:layout_marginStart="14dp" />
+
+        <!-- Type + Breed -->
+        <TextView
+            android:id="@+id/petItemBreed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog • Golden Retriever"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_below="@id/petItemName"
+            android:layout_toEndOf="@id/petItemAvatar"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="4dp" />
+
+        <!-- VIEW Button -->
+        <ImageButton
+            android:id="@+id/btnView"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_eye_24"
+            android:contentDescription="@string/view"/>
+
+        <!-- EDIT Button -->
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_toStartOf="@id/btnView"
+            android:layout_marginEnd="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_edit_24"
+            android:contentDescription="@string/edit"/>
+
+        <!-- DELETE Button -->
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_toStartOf="@id/btnEdit"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete_24"
+            android:contentDescription="@string/delete"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

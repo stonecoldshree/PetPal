@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/page_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/viewAvatar"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/other_avatar"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/viewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pet Name"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/text_primary" />
+
+        <TextView
+            android:id="@+id/viewType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textSize="18sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/viewBreed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breed"
+            android:textSize="18sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/viewGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/viewAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textSize="18sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="6dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEditPet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="26dp"
+            android:text="Edit Pet"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

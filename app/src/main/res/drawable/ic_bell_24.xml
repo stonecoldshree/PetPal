@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <!-- bell outline similar to old material style -->
+    <path android:fillColor="#444444"
+        android:pathData="M12,22c1.1,0 2,-0.9 2,-2h-4c0,1.1 0.9,2 2,2zM18.29,16l-0.71,-0.71V11c0,-3.07 -1.63,-5.64 -4.5,-6.32V4c0,-0.83 -0.67,-1.5 -1.5,-1.5S10.5,3.17 10.5,4v0.68C7.63,5.36 6,7.92 6,11v4.29L5.29,16C4.84,16.45 5.06,17.23 5.66,17.23h12.68c0.6,0 0.82,-0.78 0.34,-1.23z"/>
+</vector>

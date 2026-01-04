@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bird_avatar.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bird_avatar.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/mipmap_ic_launcher_round.png.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/mipmap/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_main.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_settings.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_delete_24.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_delete_24.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_fragment_pets.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/fragment_pets.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_other_avatar.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/other_avatar.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/color_icon_tint.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/color/icon_tint.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable-night_bg_neumorphic_card.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable-night/bg_neumorphic_card.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_edit_24.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_edit_24.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_fragment_reminders.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/fragment_reminders.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/color-night_icon_tint.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/color-night/icon_tint.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bg_glass_card.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bg_glass_card.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_home.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_pet.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_pet.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_settings_24.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_settings_24.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_check.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_bell_24.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_bell_24.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bg_input_field.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bg_input_field.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_item_chat_user.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable-night_bg_glass_circle.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable-night/bg_glass_circle.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_send.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/mipmap_ic_launcher.png.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_add_pet.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_add_pet.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bg_neumorphism.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bg_neumorphism.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_notification.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_ai_chat.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_ai_chat.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_view_reminder.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_view_reminder.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_pet_avatar.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_pet_avatar.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_eye_24.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_eye_24.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_edit_profile.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_glass_card_2025.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/glass_card_2025.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bg_neumorphic_card.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bg_neumorphic_card.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_item_reminder.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/item_reminder.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_login_simple.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_login_simple.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_dog_avatar.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/dog_avatar.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_view_pet.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_view_pet.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_item_pet.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/item_pet.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_add_reminder.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_add_reminder.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_signup.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bg_glass_circle.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bg_glass_circle.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable-night_bg_input_field.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable-night/bg_input_field.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_item_chat_bot.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/item_chat_bot.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_edit_reminder.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_edit_reminder.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_fragment_home.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_dialog_edit_profile.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/dialog_edit_profile.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_cat_avatar.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/cat_avatar.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_edit_pet.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_edit_pet.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bg_chat_bot.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bg_chat_bot.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_fragment_profile.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_reminder.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_reminder.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_profile.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/layout_activity_login.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_check_filled.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_check_filled.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_user_placeholder.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_user_placeholder.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bg_chat_input.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bg_chat_input.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_bg_chat_user.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/bg_chat_user.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_ic_add.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_avatar_glass_circle.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/avatar_glass_circle.xml"
+    },
+    {
+        "merged": "com.yourcompany.petcare.app-merged_res-48:/drawable_avatar_circle.xml.flat",
+        "source": "com.yourcompany.petcare.app-main-50:/drawable/avatar_circle.xml"
+    }
+]

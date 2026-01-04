@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom-right shadow -->
+    <item>
+        <shape>
+            <solid android:color="#E2DAFF" />
+            <corners android:radius="22dp" />
+            <padding android:left="4dp" android:top="4dp" />
+        </shape>
+    </item>
+
+    <!-- Top-left highlight -->
+    <item android:left="-4dp" android:top="-4dp">
+        <shape>
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+
+    <!-- Main surface -->
+    <item android:left="0dp" android:top="0dp">
+        <shape>
+            <solid android:color="@color/rem_card" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+
+</layer-list>

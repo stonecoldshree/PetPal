@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Profile Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/profileAvatar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_user_placeholder"
+                android:background="@drawable/bg_glass_circle"
+                android:padding="6dp"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="14dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/profileName"
+                    android:text="Your Name"
+                    android:textColor="@color/text_primary"
+                    android:textStyle="bold"
+                    android:textSize="20sp"  android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/profileEmail"
+                    android:text="you@example.com"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnEditProfile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_edit_24"
+                app:tint="@color/icon_tint_primary" />
+        </LinearLayout>
+
+        <!-- Settings Button -->
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="12dp" />
+
+        <!-- Stats -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_neumorphic_card"
+                android:padding="20dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/statPets"
+                        android:text="0"
+                        android:textSize="22sp"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+
+                    <TextView
+                        android:text="Pets"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_secondary" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/statRemDone"
+                        android:text="0"
+                        android:textSize="22sp"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+
+                    <TextView
+                        android:text="Reminders Done"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_secondary" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Chart -->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/weeklyChart"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:padding="8dp"
+            android:layout_marginTop="20dp" />
+
+        <!-- Help + About -->
+        <Button
+            android:id="@+id/btnHelp"
+            android:text="Help"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/text_primary"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:text="About App"
+            android:backgroundTint="@color/purple_200"
+            android:textColor="@color/text_primary"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Logout + Delete -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:padding="10dp" android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnDeleteAccount"
+            android:text="Delete Account"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/icon_delete"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp" android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

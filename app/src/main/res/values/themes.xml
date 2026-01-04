@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Use DayNight parent so AppCompatDelegate/App theme toggles work -->
+    <style name="Theme.PetCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- common colors reference color resources (values -> colors.xml / values-night/colors.xml) -->
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:navigationBarColor">@color/purple_700</item>
+    </style>
+</resources>

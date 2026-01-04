@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/reminderCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="4dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <!-- Avatar -->
+        <ImageView
+            android:id="@+id/remPetAvatar"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/other_avatar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Date / time (top-right) -->
+        <TextView
+            android:id="@+id/remWhen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19 Nov, 10:00 AM"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary"
+            app:layout_constraintTop_toTopOf="@+id/remPetAvatar"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/remTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Reminder title"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintStart_toEndOf="@id/remPetAvatar"
+            app:layout_constraintEnd_toStartOf="@id/remWhen"
+            app:layout_constraintTop_toTopOf="@id/remPetAvatar"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <!-- Subtitle (pet + notes) -->
+        <TextView
+            android:id="@+id/remSubtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Pet • notes"
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintStart_toEndOf="@id/remPetAvatar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/remTitle"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="6dp" />
+
+        <!-- Action buttons row -->
+        <LinearLayout
+            android:id="@+id/remActionRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="@id/remSubtitle"
+            app:layout_constraintTop_toBottomOf="@id/remSubtitle"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="2dp">
+
+            <ImageButton
+                android:id="@+id/btnViewRem"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_eye_24"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/view" />
+
+            <ImageButton
+                android:id="@+id/btnEditRem"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_edit_24"
+                android:layout_marginStart="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/edit" />
+
+            <ImageButton
+                android:id="@+id/btnDeleteRem"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_delete_24"
+                android:layout_marginStart="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/delete" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

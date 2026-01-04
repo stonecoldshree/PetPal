@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="species_array">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bird</item>
+        <item>Other</item>
+    </string-array>
+    <color name="bg_main">#F6F2FF</color>
+    <color name="chat_bot_bg">#ECEAFF</color>
+    <color name="chat_input_bg">#FFFFFF</color>
+    <color name="fab_bg">#6A00FF</color>
+    <color name="icon_default">#444444</color>
+    <color name="icon_delete">#D32F2F</color>
+    <color name="icon_tint_accent">#5A00E0</color>
+    <color name="icon_tint_dark">#FFFFFF</color>
+    <color name="icon_tint_light">#3A3A3A</color>
+    <color name="icon_tint_primary">#222222</color>
+    <color name="neu_shadow_dark">#D9CFF5</color>
+    <color name="neu_shadow_light">#FFFFFF</color>
+    <color name="neu_surface">#FFFFFF</color>
+    <color name="page_bg">#F6F2FF</color>
+    <color name="purple_200">#E9D7FF</color>
+    <color name="purple_500">#6A00FF</color>
+    <color name="purple_700">#5A00E0</color>
+    <color name="rem_card">#F8F5FF</color>
+    <color name="text_hint">#777777</color>
+    <color name="text_primary">#111111</color>
+    <color name="text_secondary">#555555</color>
+    <color name="white">#FFFFFF</color>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="app_name">PetCare</string>
+    <string name="choose_tone">Choose Notification Tone</string>
+    <string name="delete">Delete</string>
+    <string name="delete_reminder_confirmation">This reminder will be permanently removed.</string>
+    <string name="edit">Edit</string>
+    <string name="error_future_time">Pick a future date &amp; time</string>
+    <string name="error_required">Required</string>
+    <string name="gcm_defaultSenderId" translatable="false">416023300540</string>
+    <string name="google_api_key" translatable="false">AIzaSyB_khHg1LS9ym99tyfnHFEfyMgeKJEzTEI</string>
+    <string name="google_app_id" translatable="false">1:416023300540:android:b1d8328ecdc196e72b43b9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB_khHg1LS9ym99tyfnHFEfyMgeKJEzTEI</string>
+    <string name="google_storage_bucket" translatable="false">petcare-4ef98.firebasestorage.app</string>
+    <string name="no_notes">No notes</string>
+    <string name="no_pet">No pet</string>
+    <string name="notes">Notes</string>
+    <string name="project_id" translatable="false">petcare-4ef98</string>
+    <string name="recurring_daily">Repeat daily</string>
+    <string name="rem_subtitle_example">Pet • notes</string>
+    <string name="rem_when_example">Sun, 4 Feb • 9:30 AM</string>
+    <string name="reminder_icon">Reminder icon</string>
+    <string name="reminder_saved">Reminder saved</string>
+    <string name="reminder_title">Reminder Title</string>
+    <string name="save_reminder">Save Reminder</string>
+    <string name="select_date">Pick Date</string>
+    <string name="select_pet">Select Pet</string>
+    <string name="select_time">Pick Time</string>
+    <string name="title">Title</string>
+    <string name="tone_selected">Tone selected</string>
+    <string name="tone_silent">Silent tone</string>
+    <string name="untitled">Untitled</string>
+    <string name="updated">Updated</string>
+    <string name="view">View</string>
+    <style name="Theme.PetCare" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:navigationBarColor">@color/purple_700</item>
+    </style>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yourcompany.petcare">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:label="PetCare"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.PetCare">
+
+        <!-- Receiver that restores reminders after device reboot -->
+        <receiver
+            android:name=".notifications.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Reminder delivery receiver -->
+        <receiver
+            android:name=".notifications.ReminderReceiver"
+            android:exported="true" />
+
+        <!-- WorkManager system job service (required entry) -->
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true"
+            tools:replace="android:exported" />
+
+        <!-- Launcher / Auth -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.auth.SignupActivity"
+            android:exported="false" />
+
+        <!-- Main app activity -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity android:name=".ui.ai.AiChatActivity" android:exported="false" />
+
+
+        <!-- Pets -->
+        <activity android:name=".ui.pets.AddPetActivity" android:exported="false" />
+        <activity android:name=".ui.pets.ViewPetActivity" android:exported="false" />
+        <activity android:name=".ui.pets.EditPetActivity" android:exported="false" />
+
+        <!-- Reminders -->
+        <activity android:name=".ui.reminders.AddReminderActivity" android:exported="false" />
+        <activity android:name=".ui.reminders.EditReminderActivity" android:exported="false" />
+        <activity android:name=".ui.reminders.ViewReminderActivity" android:exported="false" />
+        <activity android:name=".ui.profile.EditProfileActivity" android:exported="false" />
+        <activity android:name=".ui.settings.SettingsActivity" android:exported="false" />
+
+
+    </application>
+</manifest>
